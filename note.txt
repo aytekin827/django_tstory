@@ -39,7 +39,24 @@
         2. 생각이 되면 적어본다.
         3. 각 필드는 어떤 타입이 되어야하는지 생각 또는 논의한다.
     
-    
+05. 모델링 - DB모델링 
+    Primarykey - django에서는 기본키로 id가 디폴트로 지정되어 있다. 즉 id 필드를 따로 만들어주지 않아도 만들어준다.
+    Foreignkey - 테이블간 연결을 위해 참조하는 키
 
+    django field type
+        CharField - 스트링필드
+        TextField - 큰 문자열 필드(사이즈 제한 없음.)
+        IntegerField - 정수 필드
+        FloatField - 실수 필드
+        BooleanField - True/False 필드
+        DateTimeField - 날짜 시간 필드
+        FileField - 파일 업로드
+        EmailField - 이메일 유효성 검사
+        ImageIfield - 이미지 파일 유효성 검사
+        DecimalField - 소수점 필드
+        AutoField - pk필드가 자동으로 추가 된다.
+        DateField - 
+            auto_now_add : 데이터가 처음 생성되어 저장할 때
+            auto_now : 데이터가 저장될 때
 
 
