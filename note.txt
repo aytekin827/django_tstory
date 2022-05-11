@@ -16,7 +16,7 @@
             
         PEP8 - code layout
         * 들여쓰기 : 공백 4칸, space와 tab을 혼용X
-        * 한 줄에 최대 79자
+        * 한 줄에 최대 79자까지 - 과거 모니터 해상도 이슈때문에
         * 최상위 함수와 클래스 정의는 2줄씩 띄워 사용
         * 클래스 내 메서드는 1줄씩 띄워 사용.
         * import 는 항상 소스코드 맨 위에 써야하며, 분리해서 써야한다.
@@ -59,4 +59,8 @@
             auto_now_add : 데이터가 처음 생성되어 저장할 때
             auto_now : 데이터가 저장될 때
 
-
+06. 모델링 - 퀴즈
+    Model Relationship
+        Many to Many
+        Many to One
+        One to One
