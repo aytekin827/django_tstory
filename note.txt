@@ -64,3 +64,15 @@
         Many to Many
         Many to One
         One to One
+
+07. 회원가입 - AbstractUser
+    User 모델 확장 - 장고의 내장 유저 모델 외에 다른 필드 등을 추가하고 싶을 때, User모델 커스터마이징.
+        
+        모델 커스터마이징 방법 
+        1. Proxy Mdoel 사용
+        2. 하나의 모델 정의 후, User 모델과 one-to-one관계 형성
+        3. AbstractBaseUser
+        4. AbstractUser
+
+        from django.contrib.auth.models import AbstractUser
+        이렇게 import
